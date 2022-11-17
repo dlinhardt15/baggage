@@ -1,0 +1,108 @@
+{
+    "items": [
+        {
+            "name": "Men's Underwear",
+            "weight": 85
+        },
+        {
+            "name": "T-Shirt",
+            "weight": 260
+        },
+        {
+            "name": "Shirt",
+            "weight": 150
+        },
+        {
+            "name": "Suit",
+            "weight": 1400
+        },
+        {
+            "name": "Pants",
+            "weight": 650
+        },
+        {
+            "name": "Shorts",
+            "weight": 300
+        },
+        {
+            "name": "Hoodie",
+            "weight": 335
+        },
+        {
+            "name": "Jacket",
+            "weight": 1100
+        },
+        {
+            "name": "Coat",
+            "weight": 1400
+        },
+        {
+            "name": "Windbreaker",
+            "weight": 1000
+        },
+        {
+            "name": "Hat",
+            "weight": 105
+        },
+        {
+            "name": "Scarf",
+            "weight": 170
+        },
+        {
+            "name": "Gloves",
+            "weight": 110
+        },
+        {
+            "name": "Women's Underwear",
+            "weight": 22.5
+        },
+        {
+            "name": "Bra",
+            "weight": 55
+        },
+        {
+            "name": "Swimsuit",
+            "weight": 120
+        },
+        {
+            "name": "Tube top",
+            "weight": 80
+        },
+        {
+            "name": "Dress",
+            "weight": 250
+        },
+        {
+            "name": "Leggings",
+            "weight": 280
+        },
+        {
+            "name": "Skirt",
+            "weight": 250
+        },
+        {
+            "name": "Sweater",
+            "weight": 350
+        },
+        {
+            "name": "Fur Coat",
+            "weight": 3500
+        },
+        {
+            "name": "Slippers",
+            "weight": 300
+        },
+        {
+            "name": "Running Shoes",
+            "weight": 700
+        },
+        {
+            "name": "Sneakers",
+            "weight": 650
+        },
+        {
+            "name": "Boots",
+            "weight": 1000
+        }
+    ]
+}

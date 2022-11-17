@@ -1,13 +1,14 @@
 import './App.css';
-import Article from "./Article";
+import ArticlePage from "./ArticlePage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <h1 className="App-header">
         What's your Baggage?
-      </header>
-      <Article />
+      </h1>
+      <h2>Once you add items to your suitcase, the weight of your luggage will increase.</h2>
+      <ArticlePage />
     </div>
   );
 }

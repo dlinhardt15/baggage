@@ -1,108 +1,159 @@
 {
-    "items": [
-        {
-            "name": "Men's Underwear",
-            "weight": 85
-        },
-        {
-            "name": "T-Shirt",
-            "weight": 260
-        },
-        {
-            "name": "Shirt",
-            "weight": 150
-        },
-        {
-            "name": "Suit",
-            "weight": 1400
-        },
-        {
-            "name": "Pants",
-            "weight": 650
-        },
-        {
-            "name": "Shorts",
-            "weight": 300
-        },
-        {
-            "name": "Hoodie",
-            "weight": 335
-        },
-        {
-            "name": "Jacket",
-            "weight": 1100
-        },
-        {
-            "name": "Coat",
-            "weight": 1400
-        },
-        {
-            "name": "Windbreaker",
-            "weight": 1000
-        },
-        {
-            "name": "Hat",
-            "weight": 105
-        },
-        {
-            "name": "Scarf",
-            "weight": 170
-        },
-        {
-            "name": "Gloves",
-            "weight": 110
-        },
-        {
-            "name": "Women's Underwear",
-            "weight": 22.5
-        },
-        {
-            "name": "Bra",
-            "weight": 55
-        },
-        {
-            "name": "Swimsuit",
-            "weight": 120
-        },
-        {
-            "name": "Tube top",
-            "weight": 80
-        },
-        {
-            "name": "Dress",
-            "weight": 250
-        },
-        {
-            "name": "Leggings",
-            "weight": 280
-        },
-        {
-            "name": "Skirt",
-            "weight": 250
-        },
-        {
-            "name": "Sweater",
-            "weight": 350
-        },
-        {
-            "name": "Fur Coat",
-            "weight": 3500
-        },
-        {
-            "name": "Slippers",
-            "weight": 300
-        },
-        {
-            "name": "Running Shoes",
-            "weight": 700
-        },
-        {
-            "name": "Sneakers",
-            "weight": 650
-        },
-        {
-            "name": "Boots",
-            "weight": 1000
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "name": "Men's Underwear",
+      "weight": 85,
+      "count": 0
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "weight": 260,
+      "count": 0
+    },
+    {
+      "id": 3,
+      "name": "Shirt",
+      "weight": 150,
+      "count": 0
+    },
+    {
+      "id": 4,
+      "name": "Suit",
+      "weight": 1400,
+      "count": 0
+    },
+    {
+      "id": 5,
+      "name": "Pants",
+      "weight": 650,
+      "count": 0
+    },
+    {
+      "id": 6,
+      "name": "Shorts",
+      "weight": 300,
+      "count": 0
+    },
+    {
+      "id": 7,
+      "name": "Hoodie",
+      "weight": 335,
+      "count": 0
+    },
+    {
+      "id": 8,
+      "name": "Jacket",
+      "weight": 1100,
+      "count": 0
+    },
+    {
+      "id": 9,
+      "name": "Coat",
+      "weight": 1400,
+      "count": 0
+    },
+    {
+      "id": 10,
+      "name": "Windbreaker",
+      "weight": 1000,
+      "count": 0
+    },
+    {
+      "id": 11,
+      "name": "Hat",
+      "weight": 105,
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "Scarf",
+      "weight": 170,
+      "count": 0
+    },
+    {
+      "id": 13,
+      "name": "Gloves",
+      "weight": 110,
+      "count": 0
+    },
+    {
+      "id": 14,
+      "name": "Women's Underwear",
+      "weight": 22.5,
+      "count": 0
+    },
+    {
+      "id": 15,
+      "name": "Bra",
+      "weight": 55,
+      "count": 0
+    },
+    {
+      "id": 16,
+      "name": "Swimsuit",
+      "weight": 120,
+      "count": 0
+    },
+    {
+      "id": 17,
+      "name": "Tube top",
+      "weight": 80,
+      "count": 0
+    },
+    {
+      "id": 18,
+      "name": "Dress",
+      "weight": 250,
+      "count": 0
+    },
+    {
+      "id": 19,
+      "name": "Leggings",
+      "weight": 280,
+      "count": 0
+    },
+    {
+      "id": 20,
+      "name": "Skirt",
+      "weight": 250
+    },
+    {
+      "id": 21,
+      "name": "Sweater",
+      "weight": 350,
+      "count": 0
+    },
+    {
+      "id": 22,
+      "name": "Fur Coat",
+      "weight": 3500,
+      "count": 0
+    },
+    {
+      "id": 23,
+      "name": "Slippers",
+      "weight": 300,
+      "count": 0
+    },
+    {
+      "id": 24,
+      "name": "Running Shoes",
+      "weight": 700,
+      "count": 0
+    },
+    {
+      "id": 25,
+      "name": "Sneakers",
+      "weight": 650,
+      "count": 0
+    },
+    {
+      "id": 26,
+      "name": "Boots",
+      "weight": 1000,
+      "count": 0
+    }
+  ]
 }

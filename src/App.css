@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    padding: 20px;
+    gap: 20px;
+    background-color: lightgreen;
+}
+
+.full-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    padding: 20px;
+    gap: 20px;
+    background-color: red;
+}
+
+.click:hover {
+    cursor: pointer;
+}

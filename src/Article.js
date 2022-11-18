@@ -38,8 +38,8 @@ export default function Article ({article, setSuitcase, suitcase}) {
     return (
         <div>
             <span>{article.name}: {count}</span>
-            <span onClick={(event) => handleClick(event)}>Add</span>
-            <span onClick={(event) => handleClick(event)} value="-1">Remove</span>
+            <span onClick={(event) => handleClick(event)} className="click">Add</span>
+            {count == 0 ? null : <span onClick={(event) => handleClick(event)} className="click">Remove</span>}
         </div>
         )
 

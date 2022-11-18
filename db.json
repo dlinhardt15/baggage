@@ -117,7 +117,8 @@
     {
       "id": 20,
       "name": "Skirt",
-      "weight": 250
+      "weight": 250,
+      "count": 0
     },
     {
       "id": 21,

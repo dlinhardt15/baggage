@@ -17,13 +17,12 @@ export default function ArticlePage () {
     
     return (
         <div>
-            {articles.map(article => {
-                return (
-                <Article article={article} suitcase={suitcase} setSuitcase={setSuitcase}/>)
-            })}
+            <div className={suitcaseInPounds > 50 ? "full-grid-container" : "grid-container"}>
+                {articles.map(article => <Article className="grid-item" key={article.id} article={article} suitcase={suitcase} setSuitcase={setSuitcase}/>)}
+            </div>
             <div>Your suitcase weighs {suitcaseInPounds} pounds.</div>
             {suitcaseInPounds <= 50 ? <div>Your bag will make it!</div> : <div>You need to make room.</div>}
-            
+
         </div>
     )
 }

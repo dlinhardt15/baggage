@@ -6,7 +6,7 @@ export default function Article ({article, setSuitcase, suitcase}) {
     
     // Click event behavior dependent on whether adding or removing item from suitcase.
     function handleClick (event) {
-        event.target.innerText === "Add" ?
+        event.target.innerText === "➕" ?
             fetch("http://localhost:3001/items/" + article.id, {
              method: "PATCH",
                 headers: {
@@ -36,10 +36,10 @@ export default function Article ({article, setSuitcase, suitcase}) {
 
 
     return (
-        <div>
+        <div className="grid-item">
             <span>{article.name}: {count}</span>
-            <span onClick={(event) => handleClick(event)} className="click">Add</span>
-            {count == 0 ? null : <span onClick={(event) => handleClick(event)} className="click">Remove</span>}
+            <span onClick={(event) => handleClick(event)} className="click">➕</span>
+            {count == 0 ? null : <span onClick={(event) => handleClick(event)} className="click">➖</span>}
         </div>
         )
 

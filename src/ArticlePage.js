@@ -12,8 +12,6 @@ export default function ArticlePage ({suitcase, setSuitcase, suitcaseInPounds}) 
         .then(data => setArticles(data))
     }, [])
 
-    // Converting suitcase weight from grams to pounds
-    
     
     return (
         <div>

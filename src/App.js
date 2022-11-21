@@ -6,6 +6,7 @@ function App() {
 
   const [suitcase, setSuitcase] = useState(0)
 
+  // Converting suitcase weight from grams to pounds
   const suitcaseInPounds = Math.round((suitcase * 0.00220462) * 10) / 10
 
   return (

@@ -39,7 +39,7 @@ export default function Article ({article, setSuitcase, suitcase}) {
         <div className="grid-item">
             <span>{article.name}: {count}</span>
             <span onClick={(event) => handleClick(event)} className="click">➕</span>
-            {count == 0 ? null : <span onClick={(event) => handleClick(event)} className="click">➖</span>}
+            {count === 0 ? null : <span onClick={(event) => handleClick(event)} className="click">➖</span>}
         </div>
         )
 
